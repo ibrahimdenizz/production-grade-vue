@@ -8,7 +8,7 @@ export default {
   },
   computed: {
     titleClassNames() {
-      return showElement ? 'is-visible is-bold' : ''
+      return this.showElement ? 'is-visible is-bold' : ''
     }
   }
 }
